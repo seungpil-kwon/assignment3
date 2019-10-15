@@ -1,6 +1,8 @@
 # assignment 3
-==============
 
+##Learning 
+
+```
 $ python learning.py 
 Researching important feature based on 54 total features
 
@@ -35,3 +37,4 @@ Saving algorithm and feature list in classifier directory...
 Saved
 False positive rate : 0.386618 %
 False negative rate : 0.949945 %
+```
