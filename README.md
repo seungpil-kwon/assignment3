@@ -1,6 +1,10 @@
 # assignment 3
+17011626 seungpil-Kwon
+the assignment is to train a classifier that we help to detect PE files as bad (malicious) or good files.
+When learning whether the file is malcious, I used [this]:  http://wildfire.paloaltonetworks.com/publicapi/test/pe file.
+When learning whether the file is legitimate, I used calc.exe
 
-##Learning 
+## Learning 
 
 ```
 $ python learning.py 
@@ -37,4 +41,16 @@ Saving algorithm and feature list in classifier directory...
 Saved
 False positive rate : 0.386618 %
 False negative rate : 0.949945 %
+```
+
+## Execute
+
+```
+seungpil@ubuntu:~/Desktop/assignment3$ python checkpe.py samplemalware.exe 
+The file samplemalware.exe is malicious
+```
+
+```
+seungpil@ubuntu:~/Desktop/assignment3$ python checkpe.py calc.exe
+The file calc.exe is legitimate
 ```
