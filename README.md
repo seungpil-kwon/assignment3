@@ -1,8 +1,12 @@
 # assignment 3
 17011626 seungpil-Kwon
 the assignment is to train a classifier that we help to detect PE files as bad (malicious) or good files.
-When learning whether the file is malcious, I used [this]:  http://wildfire.paloaltonetworks.com/publicapi/test/pe file.
-When learning whether the file is legitimate, I used calc.exe
+
+When learning whether the file is malcious, 
+I used [this]:  http://wildfire.paloaltonetworks.com/publicapi/test/pe file.
+
+When learning whether the file is legitimate, 
+I used calc.exe
 
 ## Learning 
 
