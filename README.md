@@ -1,6 +1,6 @@
 # assignment 3
 
-seungpil@ubuntu:~/Desktop/assignment3$ python learning.py 
+$ python learning.py 
 Researching important feature based on 54 total features
 
 /usr/local/lib/python2.7/dist-packages/sklearn/ensemble/forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
